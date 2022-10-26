@@ -1,0 +1,33 @@
+╭──❍「 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 」❍
+├ *Nama* : ${pushname}
+├ *Number* : ${me.split('@')[0]}
+├ *Premium* : ${isPremium ? '✅' : `❌`}
+├ *Limit* : ${isPremium ? '♾' : `〽️${db.data.users[m.sender].limit}`}
+╰──❍
+
+╭──❍「 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 」❍
+├ *Nama Bot* : ${pushname}
+├ *Mode* : ${naze.public ? 'Public' : `Self`}
+├ *Prefix* :「 MULTI-PREFIX 」
+├ *Total Hit* : ${jumlahcmd}
+├ *Total Hit Today* : ${jumlahharian}
+╰──❍
+
+╭──❍「 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼𝙉 𝙏𝙄𝙈𝙀 」❍
+├ *Hari Ini* : ${hariini}
+├ *Wib* : ${barat} WIB
+├ *Wita* : ${tengah} WITA
+├ *Wit* : ${timur} WIT
+╰──❍`
+
+
+╭───❍「 *Info* 」
+│ ⫹⫺ *Nama* : ${pushname}
+│ ⫹⫺ *Number* : ${me.split('@')[0]}
+│ ⫹⫺ *Premium* : ${isPremium ? '✅' : `❌`}
+│
+
+│ ⫹⫺ Total Hit : ${jumlahcmd}
+│ ⫹⫺ Version : 3.0 Beta
+│ ⫹⫺ Hari : ${hariini}
+╰──────❍
